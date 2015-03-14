@@ -1,0 +1,58 @@
+Try with
+
+X-xval=3 
+D-dval=2
+induce
+X-xval=33
+induce
+
+Then you should see
+Entering DoUpdate: X_1
+
+onUpdate process Size: 0
+
+Entering DoUpdate: A_1
+
+onUpdate process Size: 0
+
+Entering DoUpdate: B_1
+
+onUpdate process Size: 0
+
+Entering DoUpdate: C_1
+
+onUpdate process Size: 0
+
+Entering DoUpdate: D_1
+
+onUpdate process Size: 0
+
+Test-2: Try with
+DD-value=3
+induce
+DD-value=2
+induce
+
+And see
+
+
+Entering DoUpdate: DD_1
+
+onUpdate process Size: 0
+
+Entering DoUpdate: CC_1
+
+onUpdate process Size: 0
+
+Entering DoUpdate: BB_1
+
+onUpdate process Size: 0
+
+Entering DoUpdate: AA_1
+
+onUpdate process Size: 0
+
+Entering DoUpdate: XX_1
+
+onUpdate process Size: 0
+

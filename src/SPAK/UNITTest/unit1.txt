@@ -1,0 +1,13 @@
+A-a1=dog
+A-a2=cat
+induce
+A-a1=dog
+A-a2=cat
+induce
+A-a1=dog
+A-a2=cat2
+induce
+A-a1=dog
+A-a2=cat
+A-a3=fish
+induce

@@ -1,0 +1,25 @@
+reset
+# Create an instance
+A-a1=dog
+A-a2=cat
+induce
+# This should create no instance
+# just change value of a2
+A-a1=dog
+A-a2=fish
+induce
+# This should create a new instance
+A-a1=cat
+A-a2=fish
+induce
+# This should create a new AA instance
+A-a1=cat
+A-a2=fish
+AA-aa1=door
+induce
+# Test updating it
+A-a1=cat
+A-a2=shark
+AA-aa1=door
+induce
+# See if a3 and aa2 numbers changed
